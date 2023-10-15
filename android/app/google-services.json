@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "107629302463",
+    "project_id": "marasem-3fdf7",
+    "storage_bucket": "marasem-3fdf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107629302463:android:11baa6f2834ae332542c0a",
+        "android_client_info": {
+          "package_name": "com.example.maraseem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLmgwTaZ-jW0FTpENKohCnM_GrPlacLGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107629302463:android:740f266920c79f8b542c0a",
+        "android_client_info": {
+          "package_name": "com.project.maraseem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLmgwTaZ-jW0FTpENKohCnM_GrPlacLGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
