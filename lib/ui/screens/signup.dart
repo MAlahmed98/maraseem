@@ -19,6 +19,8 @@ class _Signup extends State<Signup> {
   var phone ="";
   TextEditingController _phoneTextController = TextEditingController();
 
+  FirebaseAuth auth = FirebaseAuth.instance;
+
   @override
   void initState() {
     countryCode.text = "+973";
@@ -67,9 +69,11 @@ class _Signup extends State<Signup> {
                   print(e.message);
                 },
                 codeSent: (String verificationId, int? resendToken) {
+                  print('now I am sending code to phone number +973${phone}');
                   setState(() {
                     _verificationCode = verificationId;
                   });
+                  print('verification code is:${verificationId} it was not sent');
                 },
                 codeAutoRetrievalTimeout: (String verificationId) {
                   setState(() {
